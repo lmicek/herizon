@@ -12,4 +12,4 @@ Anna Esteban
 Evan Micek 
 
 ## Contact
-Until we get email and other forms of communication setup, please reach out to me on Linkedin [Laura Micek](https://www.linkedin.com/in/lauramicek/)
+Until we get email and other forms of communication setup, please reach out to [Laura Micek](https://www.linkedin.com/in/lauramicek/)
