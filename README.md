@@ -4,7 +4,6 @@
 To empower girls, women, and those who identify as female in North Carolina to achieve independence by equipping them with the tools, mentorship, and opportunities to build sustainable careers.
 
 ## Team
-Laura Micek 
 Jessica Hinkle 
 Suzanne Hanks 
 Sarah Campbell 
