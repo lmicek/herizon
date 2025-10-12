@@ -5,185 +5,221 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herizon - Building Independence For Women in NC</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Add a visually-hidden class to your CSS for screen-reader-only text -->
+    <style>
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">Herizon</a>
-            <ul class="nav-links">
-                <li><a href="#programs">Programs</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#testimonials">Success Stories</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a href="#" class="nav-cta">Get Started</a>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Herizon</h1>
-            <p class="tagline">Building Independence</p>
-            <p class="description">
-                Empowering women to achieve freedom through education, mentorship, and community support. 
-                Join thousands of women who have transformed their futures with Herizon.
-            </p>
-            <div class="hero-buttons">
-                <a href="#" class="btn-primary">Start Your Journey</a>
-                <a href="#" class="btn-secondary">Learn More</a>
+    <!-- Use a <header> for the main site header -->
+    <header class="site-header">
+        <!-- Add aria-label to nav for better screen reader context -->
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="nav-container">
+                <!-- Add aria-label to the logo for more context -->
+                <a href="/" class="logo" aria-label="Herizon - Home">Herizon</a>
+                <ul class="nav-links">
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Success Stories</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- Make the CTA link more descriptive -->
+                <a href="#cta" class="nav-cta">Get Started with Herizon</a>
             </div>
-        </div>
-    </section>
+        </nav>
+    </header>
 
-    <!-- Statistics Section -->
-    <section class="stats">
-        <div class="stats-container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">2,500+</div>
-                    <div class="stat-label">Women Empowered</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">$2.3M</div>
-                    <div class="stat-label">Positivity Increase Generated</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">85%</div>
-                    <div class="stat-label">Achieved Goals</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">Partner Organizations</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Programs Section -->
-    <section id="programs" class="programs">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Programs</h2>
-                <p class="section-subtitle">
-                    Comprehensive programs designed to meet you where you are and guide you to where you want to be.
+    <!-- Wrap the main content of the page in a <main> tag -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content">
+                <!-- The h1 is correct as the main page title -->
+                <h1 id="hero-heading">Herizon</h1>
+                <p class="tagline">Building Independence</p>
+                <p class="description">
+                    Empowering women to achieve freedom through education, mentorship, and community support. 
+                    Join thousands of women who have transformed their futures with Herizon.
                 </p>
-            </div>
-            
-            <div class="programs-grid">
-                <div class="program-card">
-                    <div class="program-header">
-                        <div class="program-icon">💰</div>
-                        <h3 class="program-title">Foundations</h3>
-                        <p class="program-subtitle">Master the basics of personal success</p>
-                    </div>
-                    <div class="program-content">
-                        <ul class="program-features">
-                            <li>Tracking</li>
-                            <li>Strategies</li>
-                            <li>Building</li>
-                            <li>Improvement</li>
-                            <li>Optimization</li>
-                        </ul>
-                        <a href="#" class="program-cta">Join Program</a>
-                    </div>
-                </div>
-
-                <div class="program-card">
-                    <div class="program-header">
-                        <div class="program-icon">📈</div>
-                        <h3 class="program-title">Academy</h3>
-                        <p class="program-subtitle">Build long-term positivity through community</p>
-                    </div>
-                    <div class="program-content">
-                        <ul class="program-features">
-                            <li>Community fundamentals</li>
-                            <li>Diversity</li>
-                            <li>Planning</li>
-                            <li>Accounts</li>
-                            <li>Assessment and management</li>
-                        </ul>
-                        <a href="#" class="program-cta">Join Program</a>
-                    </div>
-                </div>
-
-                <div class="program-card">
-                    <div class="program-header">
-                        <div class="program-icon">👩‍💼</div>
-                        <h3 class="program-title">Accelerator</h3>
-                        <p class="program-subtitle">Launch and grow you</p>
-                    </div>
-                    <div class="program-content">
-                        <ul class="program-features">
-                            <li>Plan development</li>
-                            <li>Strategies</li>
-                            <li>Systems setup</li>
-                            <li>Planning</li>
-                            <li>Growth and scaling strategies</li>
-                        </ul>
-                        <a href="#" class="program-cta">Join Program</a>
-                    </div>
+                <div class="hero-buttons">
+                    <!-- Make link text more descriptive -->
+                    <a href="#programs" class="btn-primary">Start Your Journey with Our Programs</a>
+                    <a href="#about" class="btn-secondary">Learn More About Herizon</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Success Stories</h2>
-                <p class="section-subtitle">
-                    Real women, real results. See how Herizon has transformed futures.
-                </p>
+        <!-- Statistics Section -->
+        <!-- Add a heading for section context -->
+        <section class="stats" aria-labelledby="stats-heading">
+            <div class="stats-container">
+                <h2 id="stats-heading" class="section-title visually-hidden">Our Impact in Numbers</h2>
+                <div class="stats-grid">
+                    <!-- Use <figure> and <figcaption> for self-contained content like stats -->
+                    <figure class="stat-item">
+                        <div class="stat-number">2,500+</div>
+                        <figcaption class="stat-label">Women Empowered</figcaption>
+                    </figure>
+                    <figure class="stat-item">
+                        <div class="stat-number">$2.3M</div>
+                        <figcaption class="stat-label">Positivity Increase Generated</figcaption>
+                    </figure>
+                    <figure class="stat-item">
+                        <div class="stat-number">85%</div>
+                        <figcaption class="stat-label">Achieved Goals</figcaption>
+                    </figure>
+                    <figure class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <figcaption class="stat-label">Partner Organizations</figcaption>
+                    </figure>
+                </div>
             </div>
-            
-            <div class="testimonial-grid">
-                <div class="testimonial">
-                    <p class="testimonial-text">
-                        Herizon gave me the confidence and knowledge to start believing in myself!
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs" class="programs" aria-labelledby="programs-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="programs-heading" class="section-title">Our Programs</h2>
+                    <p class="section-subtitle">
+                        Comprehensive programs designed to meet you where you are and guide you to where you want to be.
                     </p>
-                    <div class="testimonial-author">Sarah Johnson</div>
-                    <div class="testimonial-role">Manager</div>
                 </div>
                 
-                <div class="testimonial">
-                    <p class="testimonial-text">
-                        These programs helped me launch my belief in myself!
+                <div class="programs-grid">
+                    <!-- Use <article> for self-contained cards -->
+                    <article class="program-card" aria-labelledby="program-title-foundations">
+                        <div class="program-header">
+                            <!-- Hide decorative emojis from screen readers and provide alternative text -->
+                            <div class="program-icon" aria-hidden="true">💰</div>
+                            <h3 id="program-title-foundations" class="program-title">Foundations</h3>
+                            <p class="program-subtitle">Master the basics of personal success</p>
+                        </div>
+                        <div class="program-content">
+                            <ul class="program-features">
+                                <li>Tracking</li>
+                                <li>Strategies</li>
+                                <li>Building</li>
+                                <li>Improvement</li>
+                                <li>Optimization</li>
+                            </ul>
+                            <!-- Add specific context to repeated links using aria-label -->
+                            <a href="#" class="program-cta" aria-label="Join the Foundations Program">Join Program</a>
+                        </div>
+                    </article>
+
+                    <article class="program-card" aria-labelledby="program-title-academy">
+                        <div class="program-header">
+                            <div class="program-icon" aria-hidden="true">📈</div>
+                            <h3 id="program-title-academy" class="program-title">Academy</h3>
+                            <p class="program-subtitle">Build long-term positivity through community</p>
+                        </div>
+                        <div class="program-content">
+                            <ul class="program-features">
+                                <li>Community fundamentals</li>
+                                <li>Diversity</li>
+                                <li>Planning</li>
+                                <li>Accounts</li>
+                                <li>Assessment and management</li>
+                            </ul>
+                            <a href="#" class="program-cta" aria-label="Join the Academy Program">Join Program</a>
+                        </div>
+                    </article>
+
+                    <article class="program-card" aria-labelledby="program-title-accelerator">
+                        <div class="program-header">
+                            <div class="program-icon" aria-hidden="true">👩‍💼</div>
+                            <h3 id="program-title-accelerator" class="program-title">Accelerator</h3>
+                            <p class="program-subtitle">Launch and grow you</p>
+                        </div>
+                        <div class="program-content">
+                            <ul class="program-features">
+                                <li>Plan development</li>
+                                <li>Strategies</li>
+                                <li>Systems setup</li>
+                                <li>Planning</li>
+                                <li>Growth and scaling strategies</li>
+                            </ul>
+                            <a href="#" class="program-cta" aria-label="Join the Accelerator Program">Join Program</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials" aria-labelledby="testimonials-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="testimonials-heading" class="section-title">Success Stories</h2>
+                    <p class="section-subtitle">
+                        Real women, real results. See how Herizon has transformed futures.
                     </p>
-                    <div class="testimonial-author">Maria Rodriguez</div>
-                    <div class="testimonial-role">Owner</div>
                 </div>
                 
-                <div class="testimonial">
-                    <p class="testimonial-text">
-                        I couldn't have done it without you!
-                    </p>
-                    <div class="testimonial-author">Ashley Chen</div>
-                    <div class="testimonial-role">Practitioner</div>
+                <div class="testimonial-grid">
+                    <!-- Use <figure> and <figcaption> for quotes -->
+                    <figure class="testimonial">
+                        <blockquote class="testimonial-text">
+                            <p>Herizon gave me the confidence and knowledge to start believing in myself!</p>
+                        </blockquote>
+                        <figcaption class="testimonial-author">
+                            Sarah Johnson, <span class="testimonial-role">Manager</span>
+                        </figcaption>
+                    </figure>
+                    
+                    <figure class="testimonial">
+                        <blockquote class="testimonial-text">
+                            <p>These programs helped me launch my belief in myself!</p>
+                        </blockquote>
+                        <figcaption class="testimonial-author">
+                            Maria Rodriguez, <span class="testimonial-role">Owner</span>
+                        </figcaption>
+                    </figure>
+                    
+                    <figure class="testimonial">
+                        <blockquote class="testimonial-text">
+                            <p>I couldn't have done it without you!</p>
+                        </blockquote>
+                        <figcaption class="testimonial-author">
+                            Ashley Chen, <span class="testimonial-role">Practitioner</span>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="cta-content">
-            <h2 class="cta-title">Ready to Transform Your Future?</h2>
-            <p class="cta-text">
-                Join thousands of women who have already started their journey to independence with Herizon.
-            </p>
-            <div class="hero-buttons">
-                <a href="#" class="btn-primary">Start Today</a>
-                <a href="#" class="btn-secondary">Schedule Consultation</a>
+        <!-- CTA Section -->
+        <!-- Use <aside> for content tangentially related to the main content, or keep <section> -->
+        <section id="cta" class="cta-section" aria-labelledby="cta-heading">
+            <div class="cta-content">
+                <h2 id="cta-heading" class="cta-title">Ready to Transform Your Future?</h2>
+                <p class="cta-text">
+                    Join thousands of women who have already started their journey to independence with Herizon.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-primary">Start Today</a>
+                    <a href="#" class="btn-secondary">Schedule Consultation</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <!-- Use a <footer> for the main site footer -->
+    <footer class="footer" aria-labelledby="footer-heading">
         <div class="container">
+            <h2 id="footer-heading" class="visually-hidden">Footer</h2>
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Programs</h3>
@@ -218,14 +254,16 @@
                 <div class="footer-section">
                     <h3>Contact</h3>
                     <ul>
-                        <li><a href="mailto:support@ontheherizon.org">support@ontheherizon.org</a></li>
-                        <li><a href="tel:numbers_go_here">Setup in progress - please reach out via email or Linkedin</a></li>
+                        <li><a href="mailto:support@ontheherizon.org">Email support at support@ontheherizon.org</a></li>
+                        <!-- Provide a more accessible message for the placeholder phone number -->
+                        <li>Phone support is coming soon. Please reach out via email.</li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Herizon. All rights reserved. | Privacy Policy | Terms of Service</p>
+                <!-- Add links for Privacy Policy and Terms of Service -->
+                <p>&copy; 2025 Herizon. All rights reserved. | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
             </div>
         </div>
     </footer>
