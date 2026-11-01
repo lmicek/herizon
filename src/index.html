@@ -3,267 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herizon - Building Independence For Women in NC</title>
+    <title>Herizon | AI Literacy and Career Pathways for Women in North Carolina</title>
+    <meta name="description" content="Herizon empowers girls, women, and those who identify as female in North Carolina to achieve independence through AI tools, mentorship, and opportunities to build sustainable careers.">
+    <meta property="og:title" content="Herizon | AI Literacy for Women in North Carolina">
+    <meta property="og:description" content="AI tools, mentorship, and opportunities to build sustainable careers.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/herizon-logo.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="styles.css">
-    <!-- Add a visually-hidden class to your CSS for screen-reader-only text -->
-    <style>
-        .visually-hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
-        }
-    </style>
 </head>
 <body>
-    <!-- Use a <header> for the main site header -->
+    <a class="skip-link" href="#main">Skip to main content</a>
+
     <header class="site-header">
-        <!-- Add aria-label to nav for better screen reader context -->
         <nav class="navbar" aria-label="Main Navigation">
             <div class="nav-container">
-                <!-- Add aria-label to the logo for more context -->
-                <a href="/" class="logo" aria-label="Herizon - Home">Herizon</a>
+                <a href="#top" class="logo" aria-label="Herizon - Home"><img src="images/herizon-mark.png" alt="" width="53" height="42"><span>Herizon</span></a>
                 <ul class="nav-links">
-                    <li><a href="#programs">Programs</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#testimonials">Success Stories</a></li>
+                    <li><a href="#approach">Our Approach</a></li>
+                    <li><a href="#help">How We Help</a></li>
+                    <li><a href="#involved">Get Involved</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <!-- Make the CTA link more descriptive -->
-                <a href="#cta" class="nav-cta">Get Started with Herizon</a>
+                <a href="#involved" class="nav-cta">Join Us</a>
             </div>
         </nav>
     </header>
 
-    <!-- Wrap the main content of the page in a <main> tag -->
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" aria-labelledby="hero-heading">
-            <div class="hero-content">
-                <!-- The h1 is correct as the main page title -->
-                <h1 id="hero-heading">Herizon</h1>
-                <p class="tagline">Building Independence</p>
-                <p class="description">
-                    Empowering women to achieve freedom through education, mentorship, and community support. 
-                    Join thousands of women who have transformed their futures with Herizon.
+    <main id="main">
+        <section class="hero" id="top" aria-labelledby="hero-heading">
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <p class="eyebrow">North Carolina &middot; AI Literacy &middot; Careers</p>
+                    <h1 id="hero-heading">AI skills for her next chapter.</h1>
+                    <p class="description">
+                        Herizon equips girls, women, and those who identify as female across North Carolina
+                        with AI tools, mentorship, and real opportunities, so they can build independence
+                        and sustainable careers.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#help" class="btn-primary">See How We Help</a>
+                        <a href="#involved" class="btn-secondary">Get Involved</a>
+                    </div>
+                </div>
+                <img class="hero-logo" src="images/herizon-logo.png" alt="Herizon logo: a woman's profile with circuit-board wings facing a rising sun. Tagline: AI Literacy for Girls and Women." width="675" height="572">
+            </div>
+        </section>
+
+        <section class="mission" aria-labelledby="mission-heading">
+            <div class="container narrow">
+                <h2 id="mission-heading" class="eyebrow dark">Our Mission</h2>
+                <p class="mission-text">
+                    To empower girls, women, and those who identify as female in North Carolina to achieve
+                    independence by equipping them with the AI tools, mentorship, and opportunities to
+                    build sustainable careers.
                 </p>
-                <div class="hero-buttons">
-                    <!-- Make link text more descriptive -->
-                    <a href="#programs" class="btn-primary">Start Your Journey with Our Programs</a>
-                    <a href="#about" class="btn-secondary">Learn More About Herizon</a>
-                </div>
             </div>
         </section>
 
-        <!-- Statistics Section -->
-        <!-- Add a heading for section context -->
-        <section class="stats" aria-labelledby="stats-heading">
-            <div class="stats-container">
-                <h2 id="stats-heading" class="section-title visually-hidden">Our Impact in Numbers</h2>
-                <div class="stats-grid">
-                    <!-- Use <figure> and <figcaption> for self-contained content like stats -->
-                    <figure class="stat-item">
-                        <div class="stat-number">2,500+</div>
-                        <figcaption class="stat-label">Women Empowered</figcaption>
-                    </figure>
-                    <figure class="stat-item">
-                        <div class="stat-number">$2.3M</div>
-                        <figcaption class="stat-label">Positivity Increase Generated</figcaption>
-                    </figure>
-                    <figure class="stat-item">
-                        <div class="stat-number">85%</div>
-                        <figcaption class="stat-label">Achieved Goals</figcaption>
-                    </figure>
-                    <figure class="stat-item">
-                        <div class="stat-number">50+</div>
-                        <figcaption class="stat-label">Partner Organizations</figcaption>
-                    </figure>
-                </div>
-            </div>
-        </section>
-
-        <!-- Programs Section -->
-        <section id="programs" class="programs" aria-labelledby="programs-heading">
+        <section id="approach" class="approach" aria-labelledby="approach-heading">
             <div class="container">
                 <div class="section-header">
-                    <h2 id="programs-heading" class="section-title">Our Programs</h2>
+                    <h2 id="approach-heading" class="section-title">AI literacy is career literacy</h2>
                     <p class="section-subtitle">
-                        Comprehensive programs designed to meet you where you are and guide you to where you want to be.
+                        AI is changing how work gets done in every field. Understanding it, and knowing how
+                        to use it well, is quickly becoming a foundation for economic independence.
+                        We make sure women in North Carolina are not left on the sidelines.
                     </p>
                 </div>
-                
+
+                <div class="pillars">
+                    <article class="pillar">
+                        <div class="pillar-icon" aria-hidden="true">01</div>
+                        <h3>AI Tools</h3>
+                        <p>Practical help using the AI tools people rely on at work today, from writing and research
+                           to data and automation, with an emphasis on good judgment, accuracy, and ethics.</p>
+                    </article>
+                    <article class="pillar">
+                        <div class="pillar-icon" aria-hidden="true">02</div>
+                        <h3>Mentorship</h3>
+                        <p>One-on-one and small-group guidance from professionals who can help you apply new skills,
+                           navigate a career change, and build confidence along the way.</p>
+                    </article>
+                    <article class="pillar">
+                        <div class="pillar-icon" aria-hidden="true">03</div>
+                        <h3>Opportunities</h3>
+                        <p>Introductions and referrals across North Carolina, so new skills can turn into jobs,
+                           promotions, and businesses.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="help" class="programs" aria-labelledby="help-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="help-heading" class="section-title">Free, one-on-one AI guidance</h2>
+                    <p class="section-subtitle">
+                        Think of it as a consultant in your corner, at no cost to you. We sit down with you,
+                        learn about your goals, and help you figure out how AI can move them forward.
+                        No technical background required.
+                    </p>
+                </div>
+
                 <div class="programs-grid">
-                    <!-- Use <article> for self-contained cards -->
-                    <article class="program-card" aria-labelledby="program-title-foundations">
+                    <article class="program-card" aria-labelledby="help-title-1">
                         <div class="program-header">
-                            <!-- Hide decorative emojis from screen readers and provide alternative text -->
-                            <div class="program-icon" aria-hidden="true">💰</div>
-                            <h3 id="program-title-foundations" class="program-title">Foundations</h3>
-                            <p class="program-subtitle">Master the basics of personal success</p>
+                            <p class="program-step">Step 1</p>
+                            <h3 id="help-title-1" class="program-title">Start the conversation</h3>
+                            <p class="program-subtitle">Tell us where you are and where you want to go</p>
                         </div>
                         <div class="program-content">
                             <ul class="program-features">
-                                <li>Tracking</li>
-                                <li>Strategies</li>
-                                <li>Building</li>
-                                <li>Improvement</li>
-                                <li>Optimization</li>
+                                <li>A friendly, no-pressure first chat</li>
+                                <li>Your goals: a new job, a promotion, a business, or just getting started</li>
+                                <li>Questions and concerns about AI are welcome</li>
                             </ul>
-                            <!-- Add specific context to repeated links using aria-label -->
-                            <a href="#" class="program-cta" aria-label="Join the Foundations Program">Join Program</a>
                         </div>
                     </article>
 
-                    <article class="program-card" aria-labelledby="program-title-academy">
+                    <article class="program-card" aria-labelledby="help-title-2">
                         <div class="program-header">
-                            <div class="program-icon" aria-hidden="true">📈</div>
-                            <h3 id="program-title-academy" class="program-title">Academy</h3>
-                            <p class="program-subtitle">Build long-term positivity through community</p>
+                            <p class="program-step">Step 2</p>
+                            <h3 id="help-title-2" class="program-title">Work on it together</h3>
+                            <p class="program-subtitle">Practical help using AI on your real goals</p>
                         </div>
                         <div class="program-content">
                             <ul class="program-features">
-                                <li>Community fundamentals</li>
-                                <li>Diversity</li>
-                                <li>Planning</li>
-                                <li>Accounts</li>
-                                <li>Assessment and management</li>
+                                <li>Learn which AI tools fit your situation</li>
+                                <li>Try them on real tasks, such as resumes, job searches, or business ideas</li>
+                                <li>Build habits for using AI accurately and responsibly</li>
                             </ul>
-                            <a href="#" class="program-cta" aria-label="Join the Academy Program">Join Program</a>
                         </div>
                     </article>
 
-                    <article class="program-card" aria-labelledby="program-title-accelerator">
+                    <article class="program-card" aria-labelledby="help-title-3">
                         <div class="program-header">
-                            <div class="program-icon" aria-hidden="true">👩‍💼</div>
-                            <h3 id="program-title-accelerator" class="program-title">Accelerator</h3>
-                            <p class="program-subtitle">Launch and grow you</p>
+                            <p class="program-step">Step 3</p>
+                            <h3 id="help-title-3" class="program-title">Keep moving forward</h3>
+                            <p class="program-subtitle">Support does not end after one session</p>
                         </div>
                         <div class="program-content">
                             <ul class="program-features">
-                                <li>Plan development</li>
-                                <li>Strategies</li>
-                                <li>Systems setup</li>
-                                <li>Planning</li>
-                                <li>Growth and scaling strategies</li>
+                                <li>Follow-up conversations as you progress</li>
+                                <li>Ongoing mentorship and encouragement</li>
+                                <li>Introductions and referrals where we can help</li>
                             </ul>
-                            <a href="#" class="program-cta" aria-label="Join the Accelerator Program">Join Program</a>
                         </div>
                     </article>
                 </div>
+
+                <p class="help-cta">
+                    <a href="mailto:support@ontheherizon.org?subject=Free%20AI%20guidance" class="program-cta">Request a Free Session</a>
+                </p>
             </div>
         </section>
 
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials" aria-labelledby="testimonials-heading">
+        <section id="involved" class="involved" aria-labelledby="involved-heading">
             <div class="container">
                 <div class="section-header">
-                    <h2 id="testimonials-heading" class="section-title">Success Stories</h2>
+                    <h2 id="involved-heading" class="section-title">There is a place for you here</h2>
                     <p class="section-subtitle">
-                        Real women, real results. See how Herizon has transformed futures.
+                        Herizon grows through the people who show up for each other.
                     </p>
                 </div>
-                
-                <div class="testimonial-grid">
-                    <!-- Use <figure> and <figcaption> for quotes -->
-                    <figure class="testimonial">
-                        <blockquote class="testimonial-text">
-                            <p>Herizon gave me the confidence and knowledge to start believing in myself!</p>
-                        </blockquote>
-                        <figcaption class="testimonial-author">
-                            Sarah Johnson, <span class="testimonial-role">Manager</span>
-                        </figcaption>
-                    </figure>
-                    
-                    <figure class="testimonial">
-                        <blockquote class="testimonial-text">
-                            <p>These programs helped me launch my belief in myself!</p>
-                        </blockquote>
-                        <figcaption class="testimonial-author">
-                            Maria Rodriguez, <span class="testimonial-role">Owner</span>
-                        </figcaption>
-                    </figure>
-                    
-                    <figure class="testimonial">
-                        <blockquote class="testimonial-text">
-                            <p>I couldn't have done it without you!</p>
-                        </blockquote>
-                        <figcaption class="testimonial-author">
-                            Ashley Chen, <span class="testimonial-role">Practitioner</span>
-                        </figcaption>
-                    </figure>
+
+                <div class="involved-grid">
+                    <article class="involved-card">
+                        <h3>Learn with us</h3>
+                        <p>Girls, women, and anyone who identifies as female in North Carolina, at any stage of life or career. Guidance is free.</p>
+                        <a href="mailto:support@ontheherizon.org?subject=Free%20AI%20guidance">Request a free session</a>
+                    </article>
+                    <article class="involved-card">
+                        <h3>Mentor</h3>
+                        <p>Share your experience and help someone turn new skills into a real career.</p>
+                        <a href="mailto:support@ontheherizon.org?subject=I%20want%20to%20mentor">Become a mentor</a>
+                    </article>
+                    <article class="involved-card">
+                        <h3>Partner</h3>
+                        <p>Employers, schools, libraries, and community groups: help us open doors and reach more women.</p>
+                        <a href="mailto:support@ontheherizon.org?subject=Partnership">Start a conversation</a>
+                    </article>
+                    <article class="involved-card">
+                        <h3>Support</h3>
+                        <p>Volunteer your time or expertise, or help fund access to AI tools and training.</p>
+                        <a href="mailto:support@ontheherizon.org?subject=Supporting%20Herizon">Support Herizon</a>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <!-- CTA Section -->
-        <!-- Use <aside> for content tangentially related to the main content, or keep <section> -->
-        <section id="cta" class="cta-section" aria-labelledby="cta-heading">
+        <section id="contact" class="cta-section" aria-labelledby="cta-heading">
             <div class="cta-content">
-                <h2 id="cta-heading" class="cta-title">Ready to Transform Your Future?</h2>
+                <h2 id="cta-heading" class="cta-title">Ready to see what's possible?</h2>
                 <p class="cta-text">
-                    Join thousands of women who have already started their journey to independence with Herizon.
+                    We're building Herizon now. Tell us how you'd like to be part of it and we'll keep you in the loop.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#" class="btn-primary">Start Today</a>
-                    <a href="#" class="btn-secondary">Schedule Consultation</a>
+                    <a href="mailto:support@ontheherizon.org" class="btn-primary">Email support@ontheherizon.org</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Use a <footer> for the main site footer -->
-    <footer class="footer" aria-labelledby="footer-heading">
+    <footer class="footer">
         <div class="container">
-            <h2 id="footer-heading" class="visually-hidden">Footer</h2>
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Programs</h3>
-                    <ul>
-                        <li><a href="#">Foundations</a></li>
-                        <li><a href="#">Academy</a></li>
-                        <li><a href="#">Accelerator</a></li>
-                        <li><a href="#">Mentorship Program</a></li>
-                    </ul>
+                    <h2 class="footer-logo">Herizon</h2>
+                    <p>Empowering women in North Carolina with AI tools, mentorship, and opportunities.</p>
                 </div>
-                
                 <div class="footer-section">
-                    <h3>Resources</h3>
+                    <h3>Explore</h3>
                     <ul>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Webinars</a></li>
-                        <li><a href="#">Calculator</a></li>
-                        <li><a href="#">Community Forum</a></li>
+                        <li><a href="#approach">Our Approach</a></li>
+                        <li><a href="#help">How We Help</a></li>
+                        <li><a href="#involved">Get Involved</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-section">
-                    <h3>About</h3>
-                    <ul>
-                        <li><a href="#">Our Mission</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Partners</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </div>
-                
                 <div class="footer-section">
                     <h3>Contact</h3>
                     <ul>
-                        <li><a href="mailto:support@ontheherizon.org">Email support at support@ontheherizon.org</a></li>
-                        <!-- Provide a more accessible message for the placeholder phone number -->
-                        <li>Phone support is coming soon. Please reach out via email.</li>
+                        <li><a href="mailto:support@ontheherizon.org">support@ontheherizon.org</a></li>
                     </ul>
                 </div>
             </div>
-            
             <div class="footer-bottom">
-                <!-- Add links for Privacy Policy and Terms of Service -->
-                <p>&copy; 2025 Herizon. All rights reserved. | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
+                <p>&copy; 2026 Herizon. All rights reserved.</p>
             </div>
         </div>
     </footer>

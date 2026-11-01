@@ -3,12 +3,11 @@
 ## Mission
 To empower girls, women, and those who identify as female in North Carolina to achieve independence by equipping them with the tools, mentorship, and opportunities to build sustainable careers.
 
+## Business Plan
+I
+
 ## Team
-Jessica Hinkle 
-Suzanne Hanks 
-Sarah Campbell 
-Lekhya Bellamkonda 
-Anna Esteban 
+Laura Micek
 Evan Micek 
 
 ## Contact
