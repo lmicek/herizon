@@ -1,0 +1,37 @@
+site_name: Herizon Docs
+site_url: https://ontheherizon.org/docs/
+site_description: Internal documentation for Herizon, a North Carolina nonprofit teaching AI literacy to women.
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  font:
+    text: Inter
+  palette:
+    - scheme: default
+      primary: white
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - toc.follow
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Deployment: deployment.md
+strict: true

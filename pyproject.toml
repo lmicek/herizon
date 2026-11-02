@@ -1,0 +1,16 @@
+[project]
+name = "herizon"
+version = "0.1.0"
+description = "Herizon: AI literacy and career pathways for women in North Carolina"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+docs = [
+    "mkdocs>=1.6,<2",
+    "mkdocs-material>=9.7.7",
+]
+
+[tool.uv]
+default-groups = ["docs"]
