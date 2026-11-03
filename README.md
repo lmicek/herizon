@@ -3,9 +3,12 @@
 ## Mission
 To empower girls, women, and those who identify as female in North Carolina to achieve independence by equipping them with the tools, mentorship, and opportunities to build sustainable careers.
 
-## Team
+## Directors
 Laura Micek
 Evan Micek 
+
+## Mentors
+Michelle Bayait
 
 ## Contact
 Email us at support@ontheherizon.org, or please reach out to [Laura Micek](https://www.linkedin.com/in/lauramicek/)
