@@ -15,4 +15,4 @@ files in the `docs/` folder and list them under `nav:` in `mkdocs.yml`.
 
 ## Contact
 
-[support@ontheherizon.org](mailto:support@ontheherizon.org)
+[support@ontheherizon.org](mailto:support@ontheherizon.org?subject=Herizon%20-%20General%20inquiry)
